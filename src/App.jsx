@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-      <h1>Course Progress</h1>
+      <h1>ServiceNow Certified System Administrator - Course Progress</h1>
       <div className="progress-bar">
         <div className="progress" style={{ width: `${progressPercentage}%` }}></div>
       </div>
