@@ -1,8 +1,18 @@
-# React + Vite
+# ServiceNow Certified System Administrator - Course Progress
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+In pursuit of mastering the ServiceNow platform through a self-directed course, I have created a very simple visual Course Progress Tracker to motivate and monitor my learning journey. As a visual learner, the need for a tangible representation of my progress became apparent. This project, built with React, is a dynamic and engaging way for me to visualize completion through a progress bar and a list of modules. The tracker encourages consistent engagement and advancement in my studies. My goal is to not only learn but also to prepare myself for future opportunities working with ServiceNow, and this tool just a step in my educational and professional development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tools
+
+- React: For building dynamic UIs.
+- CSS: For custom styling and layout.
+- Vite: As a fast and efficient build tool.
+- Git: For version control and tracking changes.
+
+
+## See it here!
+[Deployed Application](https://mmw18.github.io/NowLearning-CSA-Tracker/)
+
+![Page](./public/webpage.png)
