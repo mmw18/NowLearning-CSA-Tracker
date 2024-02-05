@@ -13,6 +13,5 @@ In pursuit of mastering the ServiceNow platform through a self-directed course, 
 
 
 ## See it here!
-[Deployed Application](https://mmw18.github.io/NowLearning-CSA-Tracker/)
 
 ![Page](./public/webpage.png)
