@@ -20,22 +20,33 @@ function App() {
   const completedModules = modules.filter(module => module.completed).length;
   const progressPercentage = (completedModules / totalModules) * 100;
 
+  const completedModulesList = modules.filter(module => module.completed);
+  const notCompletedModulesList = modules.filter(module => !module.completed);
+
   return (
     <>
       <h1>Course Progress</h1>
       <div className="progress-bar">
         <div className="progress" style={{ width: `${progressPercentage}%` }}></div>
       </div>
-      <ul className="module-list">
-        {modules.map((module, index) => (
-          <li key={index}>
-            <span className="module-icon">
-              {module.completed ? "✔" : "✘"} {/* Use your icons */}
-            </span>
-            {module.name}
-          </li>
-        ))}
-      </ul>
+      <div className="modules-container">
+        <ul className="module-list completed">
+          {completedModulesList.map((module, index) => (
+            <li key={index}>
+              <span className="module-icon">✔</span> {/* Use your icons */}
+              {module.name}
+            </li>
+          ))}
+        </ul>
+        <ul className="module-list not-completed">
+          {notCompletedModulesList.map((module, index) => (
+            <li key={index}>
+              <span className="module-icon">✘</span> {/* Use your icons */}
+              {module.name}
+            </li>
+          ))}
+        </ul>
+      </div>
     </>
   )
 }
