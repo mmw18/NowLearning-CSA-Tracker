@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
 
 // Sample data for modules and sections
@@ -29,7 +29,9 @@ function App() {
       <ul className="module-list">
         {modules.map((module, index) => (
           <li key={index}>
-            <input type="checkbox" checked={module.completed} readOnly />
+            <span className="module-icon">
+              {module.completed ? "✔" : "✘"} {/* Use your icons */}
+            </span>
             {module.name}
           </li>
         ))}
@@ -38,4 +40,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
