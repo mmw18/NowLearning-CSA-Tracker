@@ -7,7 +7,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/NowLearning-CSA-Tracker"> {/* Set the basename to match your GitHub repository name */}
+    <BrowserRouter basename="/NowLearning-CSA-Tracker"> 
       <App />
     </BrowserRouter>
   </React.StrictMode>,
