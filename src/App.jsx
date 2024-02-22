@@ -5,7 +5,7 @@ import './App.css'
 const modules = [
   { name: "Module 1: The Modernized Work Experience", completed: true },
   { name: "Module 2: Explore the Power of the ServiceNow Platform", completed: true },
-  { name: "Module 3: Configure Applications for Business", completed: false },
+  { name: "Module 3: Configure Applications for Business", completed: true },
   { name: "Module 4: Configure Self Service", completed: false },
   { name: "Module 5: Enable Productivity", completed: false },
   { name: "Module 6: Manage an Instance", completed: false },
